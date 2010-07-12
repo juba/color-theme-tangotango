@@ -4,6 +4,8 @@
 
 ;; Copyright (C) 2010 Julien Barnier <julien@nozav.org>
 
+;; Project homepage : http://blog.nozav.org/post/2010/07/12/Updated-tangotango-emacs-color-theme
+
 ;; This file is NOT part of GNU Emacs.
 
 ;; This is free software; you can redistribute it and/or modify it under

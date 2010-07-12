@@ -185,6 +185,7 @@
      (ess-jb-h2-face ((t (:height 1.4 :foreground "#6ac214" :slant normal))))
      (ess-jb-h3-face ((t (:height 1.2 :foreground "#edd400" :slant normal))))
      (ecb-default-highlight-face ((t (:background "#729fcf"))))
+     (ecb-tag-header-face ((t (:background "#f57900"))))
 )))
 
 (provide 'color-theme-tangotango)

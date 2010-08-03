@@ -186,6 +186,9 @@
      (ess-jb-h3-face ((t (:height 1.2 :foreground "#edd400" :slant normal))))
      (ecb-default-highlight-face ((t (:background "#729fcf"))))
      (ecb-tag-header-face ((t (:background "#f57900"))))
+     (magit-header ((t (:foreground "#edd400"))))
+     (magit-diff-add ((t (:foreground "#729fcf"))))
+     (magit-item-highlight ((t (:weight extra-bold :inverse-video t))))
 )))
 
 (provide 'color-theme-tangotango)

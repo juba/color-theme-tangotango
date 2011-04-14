@@ -1,4 +1,4 @@
-;;; Emacs Color theme based on the Tango Palette colors. 
+;;; Emacs Color theme based on the Tango Palette colors.
 ;;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
 ;;; http://www.emacswiki.org/emacs/color-theme-tango.el
 
@@ -111,7 +111,7 @@
      (custom-button-pressed  ((t (:inherit 'custom-button :box (:style pressed-button)))))
      (custom-button-mouse-pressed-unraised  ((t (:inherit 'custom-button-unraised :background "grey60"))))
      (custom-documentation ((t (:italic t))))
-     (message-cited-text ((t (:foreground "#edd400")))) 
+     (message-cited-text ((t (:foreground "#edd400"))))
      (gnus-cite-face-1 ((t (:foreground "#ad7fa8"))))
      (gnus-cite-face-2 ((t (:foreground "sienna4"))))
      (gnus-cite-face-3 ((t (:foreground "khaki4"))))
@@ -189,6 +189,30 @@
      (magit-header ((t (:foreground "#edd400"))))
      (magit-diff-add ((t (:foreground "#729fcf"))))
      (magit-item-highlight ((t (:weight extra-bold :inverse-video t))))
+     (diff-header ((t (:background "gray30"))))
+     (diff-index ((t (:foreground "#edd400" :bold t))))
+     (diff-file-header ((t (:foreground "#eeeeec" :bold t))))
+     (diff-hunk-header ((t (:foreground "#edd400"))))
+     (diff-added ((t (:foreground "#8ae234"))))
+     (diff-removed ((t (:foreground "#f57900"))))
+     (diff-context ((t (:foreground "#888a85"))))
+     (diff-refine-change ((t (:bold t :background "gray30"))))
+     (ediff-current-diff-A ((t (:background "#555753"))))
+     (ediff-current-diff-Ancestor ((t (:background "#555753"))))
+     (ediff-current-diff-B ((t (:background "#555753"))))
+     (ediff-current-diff-C ((t (:background "#555753"))))
+     (ediff-even-diff-A ((t (:background "gray30"))))
+     (ediff-even-diff-Ancestor ((t (:background "gray30"))))
+     (ediff-even-diff-B ((t (:background "gray30"))))
+     (ediff-even-diff-C ((t (:background "gray30"))))
+     (ediff-odd-diff-A ((t (:background "gray30"))))
+     (ediff-odd-diff-Ancestor ((t (:background "gray30"))))
+     (ediff-odd-diff-B ((t (:background "gray30"))))
+     (ediff-odd-diff-C ((t (:background "gray30"))))
+     (ediff-fine-diff-A ((t (:background "#222222"))))
+     (ediff-fine-diff-Ancestor ((t (:background "#222222"))))
+     (ediff-fine-diff-B ((t (:background "#222222"))))
+     (ediff-fine-diff-C ((t (:background "#222222"))))
 )))
 
 (provide 'color-theme-tangotango)

@@ -1,5 +1,5 @@
-;;; emacs-theme-tangotango.el --- Tango Palette color theme for Emacs.
-;;
+;;; color-theme-tangotango.el --- Tango Palette color theme for Emacs.
+
 ;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
 ;; http://www.emacswiki.org/emacs/color-theme-tango.el
 

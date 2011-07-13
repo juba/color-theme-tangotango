@@ -14,6 +14,9 @@
 
 ;; This file is NOT part of GNU Emacs.
 
+;; For screenshots and installation instructions :
+;; http://blog.nozav.org/post/2010/07/12/Updated-tangotango-emacs-color-theme
+
 ;;; License:
 
 ;; This is free software; you can redistribute it and/or modify it under

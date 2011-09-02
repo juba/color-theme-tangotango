@@ -1,34 +1,42 @@
-;;; Emacs Color theme based on the Tango Palette colors.
-;;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
-;;; http://www.emacswiki.org/emacs/color-theme-tango.el
+;;; color-theme-tangotango.el --- Tango Palette color theme for Emacs.
+
+;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
+;; http://www.emacswiki.org/emacs/color-theme-tango.el
 
 ;; Copyright (C) 2010 Julien Barnier <julien@nozav.org>
 
-;; Project homepage : http://blog.nozav.org/post/2010/07/12/Updated-tangotango-emacs-color-theme
+;; Author: Julien Barnier
+;; Adapted-By: Yesudeep Mangalapilly
+;; Keywords: tango palette color theme emacs
+;; URL: https://github.com/juba/color-theme-tangotango
+;; Version: 0.0.2
+;; Package-Requires: ((color-theme "6.6.1"))
 
 ;; This file is NOT part of GNU Emacs.
+
+;; For screenshots and installation instructions :
+;; http://blog.nozav.org/post/2010/07/12/Updated-tangotango-emacs-color-theme
+
+;;; License:
 
 ;; This is free software; you can redistribute it and/or modify it under
 ;; the terms of the GNU General Public License as published by the Free
 ;; Software Foundation; either version 2, or (at your option) any later
 ;; version.
-
-;; This file is distributed in the hope that it will be useful, but
-;; WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-;; General Public License for more details.
-
+;;
+;; This is distributed in the hope that it will be useful, but WITHOUT
+;; ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+;; FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+;; for more details.
+;;
 ;; You should have received a copy of the GNU General Public License
-;; along with Emacs; see the file COPYING, or type `C-h C-c'. If not,
-;; write to the Free Software Foundation at this address:
-
-;;   Free Software Foundation
-;;   51 Franklin Street, Fifth Floor
-;;   Boston, MA 02110-1301
-;;   USA
+;; along with GNU Emacs; see the file COPYING.  If not, write to the
+;; Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
+;; MA 02111-1307, USA.
 
 ;;; Code:
 
+;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
 (eval-when-compile
   (require 'color-theme))
 
@@ -219,4 +227,8 @@
      (mumamo-background-chunk-submode3 ((t (:background "#343434"))))
 )))
 
+(color-theme-tangotango)
+
 (provide 'color-theme-tangotango)
+
+;;; color-theme-tangotango.el ends here

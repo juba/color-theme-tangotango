@@ -3,13 +3,13 @@
 ;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
 ;; http://www.emacswiki.org/emacs/color-theme-tango.el
 
-;; Copyright (C) 2010 Julien Barnier <julien@nozav.org>
+;; Copyright (C) 2011 Julien Barnier <julien@nozav.org>
 
 ;; Author: Julien Barnier
 ;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: tango palette color theme emacs
 ;; URL: https://github.com/juba/color-theme-tangotango
-;; Version: 0.0.2
+;; Version: 0.0.3
 ;; Package-Requires: ((color-theme "6.6.1"))
 
 ;; This file is NOT part of GNU Emacs.

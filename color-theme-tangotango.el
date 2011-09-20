@@ -186,6 +186,7 @@
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
      (anything-header ((t (:bold t :background "grey15" :foreground "#edd400"))))
+     (anything-candidate-number ((t (:background "#f57900" :foreground "black"))))
      (ess-jb-comment-face ((t (:background "#2e3436" :foreground "firebrick" :slant italic))))
      (ess-jb-hide-face ((t (:background "#2e3436" :foreground "#243436"))))
      (ess-jb-h1-face ((t (:height 1.6 :foreground "dodger blue" :slant normal))))

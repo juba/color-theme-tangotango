@@ -228,8 +228,6 @@
      (mumamo-background-chunk-submode3 ((t (:background "#343434"))))
 )))
 
-(color-theme-tangotango)
-
 (provide 'color-theme-tangotango)
 
 ;;; color-theme-tangotango.el ends here

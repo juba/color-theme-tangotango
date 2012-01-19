@@ -3,7 +3,7 @@
 ;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
 ;; http://www.emacswiki.org/emacs/color-theme-tango.el
 
-;; Copyright (C) 2011 Julien Barnier <julien@nozav.org>
+;; Copyright (C) 2011, 2012 Julien Barnier <julien@nozav.org>
 
 ;; Author: Julien Barnier
 ;; Adapted-By: Yesudeep Mangalapilly
@@ -226,6 +226,15 @@
      (mumamo-background-chunk-submode1 ((t (:background "#2E3440"))))
      (mumamo-background-chunk-submode2 ((t (:background "#2E4034"))))
      (mumamo-background-chunk-submode3 ((t (:background "#343434"))))
+     (rpm-spec-dir-face ((t (:foreground "#8ae234"))))
+     (rpm-spec-doc-face ((t (:foreground "#888a85"))))
+     (rpm-spec-ghost-face ((t (:foreground "tomato"))))
+     (rpm-spec-macro-face ((t (:foreground "#edd400"))))
+     (rpm-spec-obsolete-tag-face ((t (:background "#f57900" :foreground "#e3436" :weight bold))))
+     (rpm-spec-package-face ((t (:foreground "tomato"))))
+     (rpm-spec-section-face ((t (:foreground "#8ae234" :underline t :weight bold))))
+     (rpm-spec-tag-face ((t (:foreground "dodger blue" :weight bold))))
+     (rpm-spec-var-face ((t (:foreground "tomato"))))
 )))
 
 (provide 'color-theme-tangotango)

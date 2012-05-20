@@ -185,11 +185,11 @@
      (org-agenda-date ((t (:foreground "#6ac214"))))
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
-     (org-block-begin-line ((t ( ;:underline "#888a85" 
-				:foreground "#a8aaa5" :background "#262c2c"))))
-     (org-block-background ((t (:background "#1e2424"))))
-     (org-block-end-line ((t ( ;:overline "#888a85" 
-			      :foreground "#a8aaa5" :background "#262c2c"))))
+     (org-block-begin-line ((t ( ; :underline "#426f9f" 
+				:foreground "#729fcf" :background "#2e3455"))))
+     (org-block-background ((t (:background "#2e3445"))))
+     (org-block-end-line ((t ( ; :overline "#426f9f" 
+				:foreground "#729fcf" :background "#2e3455"))))
      (anything-header ((t (:bold t :background "grey15" :foreground "#edd400"))))
      (anything-candidate-number ((t (:background "#f57900" :foreground "black"))))
      (ess-jb-comment-face ((t (:background "#2e3436" :foreground "#888a85" :slant italic))))
@@ -235,7 +235,7 @@
      (rpm-spec-doc-face ((t (:foreground "#888a85"))))
      (rpm-spec-ghost-face ((t (:foreground "tomato"))))
      (rpm-spec-macro-face ((t (:foreground "#edd400"))))
-     (rpm-spec-obsolete-tag-face ((t (:background "#f57900" :foreground "#e3436" :weight bold))))
+     (rpm-spec-obsolete-tag-face ((t (:background "#f57900" :foreground "#ee3436" :weight bold))))
      (rpm-spec-package-face ((t (:foreground "tomato"))))
      (rpm-spec-section-face ((t (:foreground "#8ae234" :underline t :weight bold))))
      (rpm-spec-tag-face ((t (:foreground "dodger blue" :weight bold))))

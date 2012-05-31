@@ -186,10 +186,10 @@
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
      (org-block-begin-line ((t ( ; :underline "#426f9f" 
-				:foreground "#729fcf" :background "#2e3455"))))
-     (org-block-background ((t (:background "#2e3445"))))
+				:foreground "#888a85" :background "#252b2b"))))
+     (org-block-background ((t (:background "#252b2b"))))
      (org-block-end-line ((t ( ; :overline "#426f9f" 
-				:foreground "#729fcf" :background "#2e3455"))))
+				:foreground "#888a85" :background "#252b2b"))))
      (anything-header ((t (:bold t :background "grey15" :foreground "#edd400"))))
      (anything-candidate-number ((t (:background "#f57900" :foreground "black"))))
      (ess-jb-comment-face ((t (:background "#2e3436" :foreground "#888a85" :slant italic))))

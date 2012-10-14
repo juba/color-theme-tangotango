@@ -26,16 +26,12 @@ party package or extension.
 2. Try it with =M-x load-theme=
 3. If you like it, just add the following line to your =.emacs= :
 
-#+begin_src
-(load-theme 'tangotango t)
-#+end_src
+: (load-theme 'tangotango t)
 
 If you prefer to place your theme files in another directory, you can just add
 something like the following in your =.emacs= before loading the theme :
 
-#+begin_src
-(add-to-list 'custom-theme-load-path "~/.emacs.d/color-theme-tangotango")
-#+end_src
+: (add-to-list 'custom-theme-load-path "~/.emacs.d/color-theme-tangotango")
 
 ** Emacs 23
 
@@ -50,46 +46,44 @@ documented on [[http://www.emacswiki.org/emacs/ColorTheme][emacswiki]]. The way 
 emacs and allows the selection of different themes for GUI or console based
 frames :
 
-#+begin_src emacs-lisp
-(require 'color-theme)
-(setq color-theme-load-all-themes nil)
-
-(require 'color-theme-tangotango)
-
-;; select theme - first list element is for windowing system, second is for console/terminal
-;; Source : http://www.emacswiki.org/emacs/ColorTheme#toc9
-(setq color-theme-choices 
-      '(color-theme-tangotango color-theme-tangotango))
-
-;; default-start
-(funcall (lambda (cols)
-    	   (let ((color-theme-is-global nil))
-    	     (eval 
-    	      (append '(if (window-system))
-    		      (mapcar (lambda (x) (cons x nil)) 
-    			      cols)))))
-    	 color-theme-choices)
-
-;; test for each additional frame or console
-(require 'cl)
-(fset 'test-win-sys 
-      (funcall (lambda (cols)
-    		 (lexical-let ((cols cols))
-    		   (lambda (frame)
-    		     (let ((color-theme-is-global nil))
-		       ;; must be current for local ctheme
-		       (select-frame frame)
-		       ;; test winsystem
-		       (eval 
-			(append '(if (window-system frame)) 
-				(mapcar (lambda (x) (cons x nil)) 
-					cols)))))))
-    	       color-theme-choices ))
-;; hook on after-make-frame-functions
-(add-hook 'after-make-frame-functions 'test-win-sys)
-
-(color-theme-tangotango)
-#+end_src
+: (require 'color-theme)
+: (setq color-theme-load-all-themes nil)
+: 
+: (require 'color-theme-tangotango)
+: 
+: ;; select theme - first list element is for windowing system, second is for console/terminal
+: ;; Source : http://www.emacswiki.org/emacs/ColorTheme#toc9
+: (setq color-theme-choices 
+:       '(color-theme-tangotango color-theme-tangotango))
+: 
+: ;; default-start
+: (funcall (lambda (cols)
+:     	   (let ((color-theme-is-global nil))
+:     	     (eval 
+:     	      (append '(if (window-system))
+:     		      (mapcar (lambda (x) (cons x nil)) 
+:     			      cols)))))
+:     	 color-theme-choices)
+: 
+: ;; test for each additional frame or console
+: (require 'cl)
+: (fset 'test-win-sys 
+:       (funcall (lambda (cols)
+:     		 (lexical-let ((cols cols))
+:     		   (lambda (frame)
+:     		     (let ((color-theme-is-global nil))
+: 		       ;; must be current for local ctheme
+: 		       (select-frame frame)
+: 		       ;; test winsystem
+: 		       (eval 
+: 			(append '(if (window-system frame)) 
+: 				(mapcar (lambda (x) (cons x nil)) 
+: 					cols)))))))
+:     	       color-theme-choices ))
+: ;; hook on after-make-frame-functions
+: (add-hook 'after-make-frame-functions 'test-win-sys)
+: 
+: (color-theme-tangotango)
 
 Note that I also had to add a (color-theme-tangotango) line at the end of my
 =.gnus= file in order to apply the color theme to Gnus.

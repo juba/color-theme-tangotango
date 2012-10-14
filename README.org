@@ -4,15 +4,15 @@ This is an emacs color theme based on the tango palette colors.
 
 Here is a screenshot of the color theme with an emacs-lisp file :
 
-[[[[https://github.com/juba/color-theme-tangotango/raw/master/screenshots/tangotango_elisp.png]]]]
+[[https://github.com/juba/color-theme-tangotango/raw/master/screenshots/tangotango_elisp.png]]
 
 One with a Gnus summary and article buffers :
 
-[[[[https://github.com/juba/color-theme-tangotango/raw/master/screenshots/tangotango_gnus.png]]]]
+[[https://github.com/juba/color-theme-tangotango/raw/master/screenshots/tangotango_gnus.png]]
 
 And one with an org-mode buffer :
 
-[[[[https://github.com/juba/color-theme-tangotango/raw/master/screenshots/tangotango_org.png]]]]
+[[https://github.com/juba/color-theme-tangotango/raw/master/screenshots/tangotango_org.png]]
 
 
 * Installation instructions

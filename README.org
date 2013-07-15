@@ -17,7 +17,21 @@ And one with an org-mode buffer :
 
 * Installation instructions
 
-** Emacs 24
+** Package.el
+
+=tangotango-theme= is available in [[http://melpa.milkbox.net][MELPA]]. You can add this repository by
+following its [[http://melpa.milkbox.net/#installing][installation instructions]].
+
+To install =tangotango-theme=, just do :
+
+: M-x package-install tangotango-theme
+
+You can then try it with =M-x load-theme=. If you want to load it
+automatically on startup, add the following to your init file :
+
+: (load-theme 'tangotango t)  
+
+** Manual (Emacs 24)
 
 Emacs 24 features native color theming, and as such you don't need any third
 party package or extension.

@@ -3,18 +3,15 @@
 ;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
 ;; http://www.emacswiki.org/emacs/color-theme-tango.el
 
-;; Copyright (C) 2011, 2012 Julien Barnier <julien@nozav.org>
+;; Copyright (C) 2011, 2012, 2013 Julien Barnier <julien@nozav.org>
 
 ;; Author: Julien Barnier
 ;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: tango palette color theme emacs
 ;; URL: https://github.com/juba/color-theme-tangotango
-;; Version: 0.0.4
+;; Version: 0.0.5
 
 ;; This file is NOT part of GNU Emacs.
-
-;; For screenshots and installation instructions :
-;; http://blog.nozav.org/post/2010/07/12/Updated-tangotango-emacs-color-theme
 
 ;;; License:
 
@@ -181,6 +178,7 @@
  `(org-agenda-date ((t (:foreground "#6ac214"))))
  `(org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
  `(org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
+ `(org-scheduled-previously ((t (:weight normal :foreground "#edd400"))))
  `(org-block-begin-line ((t ( :foreground "#888a85" :background "#252b2b"))))
  `(org-block-background ((t (:background "#252b2b"))))
  `(org-block-end-line ((t ( :foreground "#888a85" :background "#252b2b"))))

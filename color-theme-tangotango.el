@@ -9,7 +9,7 @@
 ;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: tango palette color theme emacs
 ;; URL: https://github.com/juba/color-theme-tangotango
-;; Version: 0.0.5
+;; Version: 0.0.6
 ;; Package-Requires: ((color-theme "6.6.1"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -183,10 +183,10 @@
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
      (org-scheduled-previously ((t (:weight normal :foreground "#edd400"))))
-     (org-block-begin-line ((t ( ; :underline "#426f9f" 
+     (org-block-begin-line ((t ( ; :underline "#426f9f"
 				:foreground "#888a85" :background "#252b2b"))))
      (org-block-background ((t (:background "#252b2b"))))
-     (org-block-end-line ((t ( ; :overline "#426f9f" 
+     (org-block-end-line ((t ( ; :overline "#426f9f"
 				:foreground "#888a85" :background "#252b2b"))))
      (anything-header ((t (:bold t :background "grey15" :foreground "#edd400"))))
      (anything-candidate-number ((t (:background "#f57900" :foreground "black"))))
@@ -238,6 +238,7 @@
      (rpm-spec-section-face ((t (:foreground "#8ae234" :underline t :weight bold))))
      (rpm-spec-tag-face ((t (:foreground "dodger blue" :weight bold))))
      (rpm-spec-var-face ((t (:foreground "tomato"))))
+     (which-func ((t (:inherit 'font-lock-function-name-face :weight normal))))
 )))
 
 (provide 'color-theme-tangotango)

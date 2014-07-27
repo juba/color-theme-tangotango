@@ -9,7 +9,7 @@
 ;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: tango palette color theme emacs
 ;; URL: https://github.com/juba/color-theme-tangotango
-;; Version: 0.0.5
+;; Version: 0.0.6
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -232,6 +232,7 @@
  `(rpm-spec-section-face ((t (:foreground "#8ae234" :underline t :weight bold))))
  `(rpm-spec-tag-face ((t (:foreground "dodger blue" :weight bold))))
  `(rpm-spec-var-face ((t (:foreground "tomato"))))
+ `(which-func ((t (:inherit (font-lock-function-name-face) :weight normal))))
  )
 
 

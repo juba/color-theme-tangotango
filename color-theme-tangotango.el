@@ -238,6 +238,10 @@
      (rpm-spec-section-face ((t (:foreground "#8ae234" :underline t :weight bold))))
      (rpm-spec-tag-face ((t (:foreground "dodger blue" :weight bold))))
      (rpm-spec-var-face ((t (:foreground "tomato"))))
+     ;; regexp metachars
+     (font-lock-negation-char-face ((t (:foreground "#6ac214"))))
+     (font-lock-regexp-grouping-construct ((t (:foreground "#edd400"))))
+     (font-lock-regexp-grouping-backslash ((t (:foreground "#888a85"))))
      (which-func ((t (:inherit 'font-lock-function-name-face :weight normal))))
 )))
 

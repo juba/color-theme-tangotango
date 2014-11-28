@@ -1,3 +1,5 @@
+[[http://melpa.org/#/tangotango-theme][file:http://melpa.org/packages/tangotango-theme-badge.svg]]
+
 This is an emacs color theme based on the tango palette colors.
 
 * Screenshots

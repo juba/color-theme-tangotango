@@ -143,7 +143,7 @@
      (gnus-header-newsgroups((t (:italic t :bold t :foreground "LightSkyBlue3"))))
      (gnus-signature((t (:italic t :foreground "dark grey"))))
      (gnus-summary-cancelled((t (:background "black" :foreground "yellow"))))
-     (gnus-summary-high-ancient((t (:bold t :foreground "rotal blue"))))
+     (gnus-summary-high-ancient((t (:bold t :foreground "royal blue"))))
      (gnus-summary-high-read((t (:bold t :foreground "lime green"))))
      (gnus-summary-high-ticked((t (:bold t :foreground "tomato"))))
      (gnus-summary-high-unread((t (:bold t :foreground "white"))))

@@ -2,8 +2,6 @@
 
 This is an emacs color theme based on the tango palette colors.
 
-[[http://flattr.com/thing/51774/Tangotango-emacs-color-theme][file:http://api.flattr.com/button/flattr-badge-large.png]]
-
 * Screenshots
 
 Here is a screenshot of the color theme with an emacs-lisp file :

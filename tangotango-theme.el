@@ -9,7 +9,7 @@
 ;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: tango palette color theme emacs
 ;; URL: https://github.com/juba/color-theme-tangotango
-;; Version: 0.0.6
+;; Version: 0.0.7
 
 ;; This file is NOT part of GNU Emacs.
 

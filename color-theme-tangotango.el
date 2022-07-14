@@ -32,8 +32,7 @@
 ;;; Code:
 
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
-(eval-when-compile
-  (require 'color-theme))
+(require 'color-theme)
 
 (defun color-theme-tangotango ()
   "A color theme based on Tango Palette colors."

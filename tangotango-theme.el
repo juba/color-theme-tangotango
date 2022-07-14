@@ -5,7 +5,7 @@
 
 ;; Copyright (C) 2011, 2012, 2013 Julien Barnier <julien@nozav.org>
 
-;; Author: Julien Barnier
+;; Author: Julien Barnier <julien@nozav.org>
 ;; Adapted-By: Yesudeep Mangalapilly
 ;; Keywords: tango palette color theme emacs
 ;; URL: https://github.com/juba/color-theme-tangotango

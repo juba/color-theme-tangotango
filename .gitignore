@@ -1,0 +1,3 @@
+*.elc
+/tangotango-theme-pkg.el
+/tangotango-theme-autoloads.el

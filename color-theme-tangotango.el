@@ -3,7 +3,7 @@
 ;; First derived from color-theme-tango.el,  created by danranx@gmail.com :
 ;; http://www.emacswiki.org/emacs/color-theme-tango.el
 
-;; Copyright (C) 2011, 2012, 2013, Julien Barnier <julien@nozav.org>
+;; Copyright (C) 2011-2013  Julien Barnier <julien@nozav.org>
 
 ;; Author: Julien Barnier
 ;; Adapted-By: Yesudeep Mangalapilly
@@ -32,7 +32,8 @@
 ;;; Code:
 
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
-(require 'color-theme)
+(require 'color-theme nil t)
+(declare-function color-theme-install "color-theme")
 
 (defun color-theme-tangotango ()
   "A color theme based on Tango Palette colors."
@@ -42,6 +43,7 @@
   ;; - green :      "#6ac214"
   ;; - orange/red : "tomato"
   (interactive)
+  ;; FIXME: Shouldn't this share some code with tangotango-theme.el?
   (color-theme-install
    '(color-theme-tangotango
      ((background-color . "#2e3434")

@@ -239,7 +239,7 @@
      (term-color-cyan ((t (:foreground "light cyan" :background "light cyan"))))
      (term-color-green ((t (:foreground "#6ac214" :background "#6ac214"))))
      (term-color-magenta ((t (:foreground "magenta3" :background "magenta3"))))
-     (term-color-red ((t (:foreground "#a40000" :background "#a40000"))))
+     (term-color-red ((t (:foreground "#ef2929" :background "#ef2929"))))
      (term-color-white ((t (:foreground "#eeeeec" :background "#eeeeec"))))
      (term-color-yellow ((t (:foreground "#edd400" :background "#edd400"))))
      ;; regexp metachars
